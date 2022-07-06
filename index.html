@@ -15,22 +15,62 @@
           <img
             src="img/isolated-monochrome-black.svg"
             alt="logo"
-            height="130"
-            width="200"
+            height="100vh"
+            width="45%"
           />
         </div>
       </div>
       <div class="form-container">
-        <form action="sdsad">
-          <input type="" />
-          <label for=""></label>
-          <input type="" />
-          <label for=""></label>
-          <input type="" />
-          <label for=""></label>
-          <input type="" />
-          <label for=""></label>
+        <div class="form-info">
+          <p>
+            Welcome to Flex Gym, where you shape your future. Our gym is
+            available for 24/7 with certified instructor. You know you need
+            something like this in your life to help you achieve your deepest
+            dreams.
+          </p>
+          <br />
+          <p>Sign up now to get started.</p>
+        </div>
+        <div class="form">
+          <h2>Let's do this!</h2>
+          <form action="#">
+            <div class="name">
+              <div class="div">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" required />
+              </div>
+              <div class="div">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" />
+              </div>
+            </div>
+            <div class="contact">
+              <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" />
+              </div>
+              <div>
+                <label for="ph-no">PHONE NUMBER</label>
+                <input type="number" id="ph-no" />
+              </div>
+            </div>
+            <div class="password">
+              <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" />
+              </div>
+              <div>
+                <label for="password-confirm">CONFIRM PASSWORD</label>
+                <input type="password" id="password-confirm" />
+              </div>
+            </div>
+          
+        </div>
+        <div class="submission">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log In</a> </p>
         </form>
+        </div>
       </div>
     </main>
     <script src="app.js"></script>
