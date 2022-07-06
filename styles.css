@@ -197,7 +197,6 @@ input {
   border-radius: 5px;
   width: 250px;
   height: 20px;
-  border: 1px lightgrey solid;
 }
 
 .submission {
@@ -231,4 +230,20 @@ a {
 
 a:hover {
   color: black;
+}
+
+input:valid {
+  border: green 2px solid;
+}
+input:required {
+  border: 1px lightgrey solid;
+}
+
+input:invalid {
+  border: red 1px solid;
+}
+
+.message {
+  font-size: 13px;
+  font-weight: 300;
 }
